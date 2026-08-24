@@ -24,7 +24,7 @@
     .nav-logo { display: flex; align-items: center; gap: 10px; }
     .nav-logo-text { font-family: 'Inter',sans-serif; font-size: 15px; font-weight: 800; letter-spacing: .05em; color: #111; }
     .nav-menu { display: flex; align-items: center; gap: 28px; list-style: none; justify-content: flex-start; margin-left: 40px; }
-    .nav-menu a { font-family: 'Inter',sans-serif; font-size: 11px; font-weight: 600; letter-spacing: .12em; color: #666; text-transform: uppercase; transition: color .2s; line-height: 1; }
+    .nav-menu a { font-family: 'Jua', sans-serif; font-size: 14px; font-weight: 400; letter-spacing: .02em; color: #666; transition: color .2s; line-height: 1; }
     .nav-menu a:hover { color: #111; }
     .nav-cta { display: inline-flex; align-items: center; gap: 8px; line-height: 1; background: #FF6FA5; color: #fff; font-size: 13px; font-weight: 700; padding: 10px 22px; border-radius: 100px; flex-shrink: 0; transition: opacity .2s; }
     .nav-cta:hover { opacity: .85; }
@@ -37,7 +37,7 @@
     .nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
     #mobileMenu { display: none; position: fixed; top: 64px; left: 0; right: 0; bottom: 0; background: #ffffff; z-index: 9998; flex-direction: column; padding: 36px 24px; overflow-y: auto; }
     #mobileMenu.open { display: flex; }
-    .mob-link { font-family: 'Inter',sans-serif; font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #666; padding: 18px 0; border-bottom: 1px solid #eee; }
+    .mob-link { font-family: 'Jua', sans-serif; font-size: 16px; font-weight: 400; letter-spacing: .02em; color: #666; padding: 18px 0; border-bottom: 1px solid #eee; }
     .mob-cta-wrap { margin-top: 32px; }
     .mob-cta { display: inline-flex; align-items: center; gap: 8px; background: #FF6FA5; color: #fff; font-size: 14px; font-weight: 700; padding: 14px 28px; border-radius: 100px; }
     @media (max-width: 768px) {
@@ -70,6 +70,7 @@
     .brand-crumb b { color: var(--purple); font-weight: 400; }
     .crumb-arrow { margin: 0 4px; color: #C9BFB8; }
     .kicker { display: inline-block; font-family: 'Jua', sans-serif; font-size: 19px; color: var(--purple); background: #F1E6FF; padding: 8px 20px; border-radius: 999px; margin-bottom: 22px; animation: pop .5s ease-out; }
+    .service-tag { font-size: 14px; font-weight: 700; color: #8A8078; letter-spacing: .02em; margin: -12px 0 20px; }
     .wordmark { font-family: 'Baloo 2', sans-serif; font-weight: 800; font-size: 78px; letter-spacing: -.01em; line-height: 1; margin-bottom: 28px; animation: pop .6s ease-out .05s both; }
     .wordmark span { display: inline-block; -webkit-text-stroke: 2.5px var(--ink); text-shadow: 3px 4px 0 rgba(0,0,0,.08); }
     .wordmark .w1 { color: var(--green); } .wordmark .w2 { color: var(--orange); }
