@@ -49,7 +49,7 @@
 
     /* HERO */
     .hero { position: relative; padding: 128px 24px 60px; text-align: center; overflow: hidden; }
-    .hero-inner { max-width: 1800px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; text-align: left; }
+    .hero-inner { max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 24px; text-align: left; }
     .hero-left, .hero-right { min-width: 0; flex: 0 0 auto; }
     .hero-left { max-width: 600px; }
     .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: 0; margin-right: 0; }
