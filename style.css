@@ -58,7 +58,7 @@
       .hero { padding-left: 24px; padding-right: 24px; }
       .hero-inner { flex-direction: column; justify-content: flex-start; text-align: center; }
       .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: auto; margin-right: auto; }
-      .hero-right { margin-top: 32px; }
+      .hero-right { margin-top: 32px; width: 100%; }
     }
     .hero-doodles { position: absolute; inset: 0; pointer-events: none; }
     .swoosh { position: absolute; top: 74px; left: 50%; transform: translateX(-190px); width: 380px; opacity: .9; }
@@ -176,7 +176,8 @@
     .stack-card.sc1 { transform: rotate(-9deg); right: 92px; bottom: -8px; }
     .stack-card.sc2 { transform: rotate(6deg); right: 0; bottom: 18px; }
     @media (max-width: 900px) {
-      .phone-mock { margin: 0 auto; }
+      .hero-right { flex-direction: column; }
+      .phone-mock { margin: 0 auto; flex-shrink: 0; }
       .card-stack { position: static; margin-top: 26px; display: flex; justify-content: center; gap: 16px; }
       .stack-card { position: static; transform: none !important; }
     }
@@ -271,4 +272,6 @@
       .swoosh { display: none; }
       #sticky-cta { display: flex; }
       .final-cta { padding-bottom: calc(40px + 64px); }
+      .phone-mock { width: 260px; }
+      .card-stack .stack-card { width: 96px; }
     }
