@@ -20,7 +20,7 @@
 
 
     /* NAV */
-    #nav { position: fixed; top: 0; left: 0; right: 0; height: 64px; z-index: 9999; background: #ffffff; border-bottom: 1px solid #E8E8E8; display: grid; grid-template-columns: auto 1fr auto; align-items: center; padding: 0 24px; }
+    #nav { position: fixed; top: 0; left: 0; right: 0; height: 64px; z-index: 9999; background: #ffffff; border-bottom: 1px solid #E8E8E8; display: grid; grid-template-columns: auto 1fr auto; align-items: center; padding: 0 112px; }
     .nav-logo { display: flex; align-items: center; gap: 10px; }
     .nav-logo-text { font-family: 'Inter',sans-serif; font-size: 15px; font-weight: 800; letter-spacing: .05em; color: #111; }
     .nav-menu { display: flex; align-items: center; gap: 28px; list-style: none; justify-content: flex-start; margin-left: 40px; }
@@ -48,13 +48,14 @@
     }
 
     /* HERO */
-    .hero { position: relative; padding: 128px 24px 60px; text-align: center; overflow: hidden; }
-    .hero-inner { max-width: 1280px; margin: 0 auto; display: flex; justify-content: flex-start; align-items: center; gap: 24px; text-align: left; }
+    .hero { position: relative; padding: 128px 112px 60px; text-align: center; overflow: hidden; }
+    .hero-inner { max-width: 1900px; margin: 0 auto; display: flex; justify-content: flex-start; align-items: center; gap: 24px; text-align: left; }
     .hero-left, .hero-right { min-width: 0; }
     .hero-left { flex: 0 0 auto; max-width: 600px; }
     .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: 0; margin-right: 0; }
     .hero-right { position: relative; display: flex; justify-content: flex-start; align-items: center; min-height: 460px; flex: 1 1 auto; }
     @media (max-width: 900px) {
+      .hero { padding-left: 24px; padding-right: 24px; }
       .hero-inner { flex-direction: column; justify-content: flex-start; text-align: center; }
       .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: auto; margin-right: auto; }
       .hero-right { margin-top: 32px; }
