@@ -49,12 +49,13 @@
 
     /* HERO */
     .hero { position: relative; padding: 128px 24px 60px; text-align: center; overflow: hidden; }
-    .hero-inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 0.75fr 1.25fr; gap: 24px; align-items: center; text-align: left; }
-    .hero-left, .hero-right { min-width: 0; }
+    .hero-inner { max-width: 1280px; margin: 0 auto; display: flex; justify-content: center; align-items: center; gap: 40px; text-align: left; }
+    .hero-left, .hero-right { min-width: 0; flex: 0 0 auto; }
+    .hero-left { max-width: 600px; }
     .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: 0; margin-right: 0; }
-    .hero-right { position: relative; display: flex; justify-content: center; align-items: center; min-height: 460px; }
+    .hero-right { position: relative; display: flex; justify-content: center; align-items: center; min-height: 460px; min-width: 500px; }
     @media (max-width: 900px) {
-      .hero-inner { grid-template-columns: 1fr; text-align: center; }
+      .hero-inner { flex-direction: column; text-align: center; }
       .hero-left .hero-tag, .hero-left .hero-sub, .hero-left .hero-micro { margin-left: auto; margin-right: auto; }
       .hero-right { margin-top: 32px; }
     }
