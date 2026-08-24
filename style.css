@@ -96,7 +96,19 @@
     .section { padding: 56px 24px; }
     .section-title { font-family: 'Jua', sans-serif; font-size: 32px; text-align: center; margin-bottom: 40px; line-height: 1.4; }
     .section-kicker { font-family: 'Jua', sans-serif; font-size: 15px; color: var(--purple); text-align: center; margin-bottom: 12px; }
+    .section-more { text-align: center; margin-top: 28px; }
     .hl-purple { color: var(--purple); } .hl-orange { color: var(--orange); } .hl-green { color: var(--green); }
+
+    /* PAGE HEAD (서브페이지 공통) */
+    .page-head { padding: 140px 24px 20px; text-align: center; }
+    @media (max-width: 640px) { .page-head { padding: 112px 24px 12px; } }
+
+    /* WHY KIDSFEED LAB */
+    .why-lede { font-family: 'Jua', sans-serif; font-size: 17px; color: var(--ink); text-align: center; max-width: 520px; margin: 0 auto 32px; line-height: 1.6; }
+    .trust-note { text-align: center; font-size: 13px; color: #A89E97; margin-top: 26px; }
+
+    /* HOME용 축약 플로우 */
+    .flow-grid.compact .flow-step { padding: 18px 22px; }
 
     /* BENEFIT */
     .benefit-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
